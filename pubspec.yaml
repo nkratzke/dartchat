@@ -2,6 +2,7 @@ name: dartchart
 version: 0.1.0
 author: Nane Kratzke
 description: A simple chat server and client to demonstrate web sockets in Dart.
+homepage: https://github.com/nkratzke/dartchat
 dependencies:
   browser: any
   start: any
