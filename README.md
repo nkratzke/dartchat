@@ -7,7 +7,7 @@ It is primarily used to demonstrate websockets in Dart.
 
 ## How to use it
 
-Download it via github 
+Clone it from github 
 
 ```
 git clone https://github.com/nkratzke/dartchat.git
@@ -16,8 +16,8 @@ git clone https://github.com/nkratzke/dartchat.git
 and open created directory in your Dart Editor. Then:
 
 1. Start the server by running <code>bin\chartserver.dart</code>.
-2. Open as many webbrowser windows you like and open the url [<code>http://localhost:3000/</code>](http://localhost:3000)
-3. Or open file <code>web\chartclient.dart</code> with Chromium from within your Dart Editor.
+2. Open as many webbrowser windows you like and open the url [http://localhost:3000](http://localhost:3000)
+3. Or run file <code>web\chartclient.dart</code> with Dartium within your Dart Editor.
 
 ## Tour de Dart
 
