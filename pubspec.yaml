@@ -1,8 +1,8 @@
 name: dartchat
-version: 0.1.0
-author: Nane Kratzke
+version: 0.1.1
+author: Nane Kratzke <nane@nkode.io>
 description: A simple chat server and client to demonstrate web sockets in Dart.
 homepage: https://github.com/nkratzke/dartchat
 dependencies:
-  browser: any
-  start: any
+  browser: '>=0.9.1 <0.9.2'
+  start: '>=0.2.3 <0.2.4'

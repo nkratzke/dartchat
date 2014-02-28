@@ -1,5 +1,5 @@
 import 'dart:html';
-import 'package:dartchart/chart.dart';
+import 'package:dartchat/dartchat.dart';
 
 // Helperfunktion um Fehlermeldungen auszugeben
 String error(String msg) => "<p class='error'>$msg</p>";

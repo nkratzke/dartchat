@@ -1469,7 +1469,7 @@ wN:{
 call$2:function(a,b){return this.b(a,b)}},
 VX:{
 "^":"Tp:11;c",
-call$1:function(a){return this.c(a)}}}],["chart","package:dartchart/chart.dart",,B,{
+call$1:function(a){return this.c(a)}}}],["chart","package:dartchat/dartchat.dart",,B,{
 "^":"",
 RB:{
 "^":"a;Zm,pR",
