@@ -21,7 +21,7 @@ RUN apt-get -y update
 RUN apt-get install -y dartsdk
 
 # Install the dartchat app.
-# Copy the bin, lib, and web directory to the container. Then run "pub get" and "pub build"
+# Copy the bin, lib, and web directory to the container. Then run "pub build"
 # to build the app.
 ADD pubspec.yaml /opt/dockers/dartchat/pubspec.yaml
 ADD bin /opt/dockers/dartchat/bin
@@ -30,7 +30,7 @@ ADD web /opt/dockers/dartchat/web
 WORKDIR /opt/dockers/dartchat
 RUN pub build
 
-# Expose port 3000 where the chat is working on.
+# Expose port 3000 the chat is working on.
 EXPOSE 3000
 
 # Entrypoint starts the chatserver.
