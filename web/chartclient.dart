@@ -14,7 +14,8 @@ main() {
   final DivElement   notify  = querySelector("#notify");
 
   // Wir bauen uns einen Socket auf.
-  final WebSocket chatSocket = new WebSocket('ws:/messages');
+  final url = "ws://${window.location.host}/messages";
+  final WebSocket chatSocket = new WebSocket(url);
 
   // Hier speichern wir uns den Namen des/der Chatters/in
   var chatter = "";
