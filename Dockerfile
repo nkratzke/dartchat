@@ -24,10 +24,9 @@ RUN apt-get install -y dartsdk
 # Copy the bin and web directory to the container. Then run "pub get" and "pub build"
 # to build the app.
 ADD pubspec.yaml /opt/containerdart/dartchatpubspec.yaml
-ADD bin /opt/dockers/dartchatbin
-ADD web /opt/dockers/dartchatweb
+ADD bin /opt/dockers/dartchat/bin
+ADD web /opt/dockers/dartchat/web
 WORKDIR /opt/dockers/dartchat
-RUN pub get
 RUN pub build
 
 # Expose port 3000 where the chat is working on.
