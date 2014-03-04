@@ -1,5 +1,5 @@
 name: dartchat
-version: 0.1.2
+version: 0.1.3
 author: Nane Kratzke <nane@nkode.io>
 description: A simple chat server and client to demonstrate web sockets in Dart.
 homepage: https://github.com/nkratzke/dartchat
