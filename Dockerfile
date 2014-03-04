@@ -21,10 +21,11 @@ RUN apt-get -y update
 RUN apt-get install -y dartsdk
 
 # Install the dartchat app.
-# Copy the bin and web directory to the container. Then run "pub get" and "pub build"
+# Copy the bin, lib, and web directory to the container. Then run "pub get" and "pub build"
 # to build the app.
 ADD pubspec.yaml /opt/dockers/dartchat/pubspec.yaml
 ADD bin /opt/dockers/dartchat/bin
+ADD lib /opt/dockers/dartchat/lib
 ADD web /opt/dockers/dartchat/web
 WORKDIR /opt/dockers/dartchat
 RUN pub build
