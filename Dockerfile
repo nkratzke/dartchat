@@ -3,7 +3,7 @@
 #
 # This file is hosted on github. Therefore you can start it in docker like this:
 # > docker build -t dartchat github.com/nkratzke/dartchat
-# > docker run -p 3000:8080 -d dartchat
+# > docker run -p 8080:3000 -d dartchat
 
 FROM stackbrew/ubuntu:13.10
 MAINTAINER Nane Kratzke <nane@nkode.io>
