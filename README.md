@@ -1,10 +1,9 @@
 # Dartchat
 
-Chart (aka dartchat) is a chat server and client (for demonstration purposes).
-
+Chart (aka dartchat) is a chat server and client (for demonstration purposes). 
 Chart is an example server and client for the Tour de Dart.
-It is primarily used to demonstrate websockets in Dart but also to demonstrate how to dockerize
-a Dart server application.
+It is primarily used to demonstrate websockets in Dart but also
+to demonstrate how to dockerize a Dart server application.
 
 Chart can be started/deployed using
 
@@ -41,7 +40,8 @@ Last run the container and bind it to a typical web port (e.g. 80 or 8080).
 docker run -p 8080:3000 -d dartchat
 ```
 
-This will run the dartchat as a docker container. The chat is now 
+This will run the dartchat as a docker container. The chat is now accessible via
+[http://localhost:8080][docker-url];
 
 ## Tour de Dart
 
