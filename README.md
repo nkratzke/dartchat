@@ -1,9 +1,14 @@
-# dartchat
+# Dartchat
 
-## Chart is a dart chat (for demonstration purposes)
+Chart (aka dartchat) is a chat server and client (for demonstration purposes).
 
 Chart is an example server and client for the Tour de Dart.
 It is primarily used to demonstrate websockets in Dart.
+
+Chart can be started/deployed using
+
+- Dart Editor (or via Dart SDK)
+- or [Docker] 
 
 ## How to use it using Dart Editor
 
@@ -48,3 +53,4 @@ Tour de Dart is hosted on slideshare and can be accessed via the following links
 [docker-install]: https://www.docker.io/gettingstarted/
 [dart-url]: http://localhost:3000
 [docker-url]: http://localhost:8080
+[docker]: https://docker.io

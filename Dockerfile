@@ -27,6 +27,7 @@ ADD pubspec.yaml /opt/containerdart/dartchatpubspec.yaml
 ADD bin /opt/dockers/dartchatbin
 ADD web /opt/dockers/dartchatweb
 WORKDIR /opt/dockers/dartchat
+RUN pub get
 RUN pub build
 
 # Expose port 3000 where the chat is working on.
