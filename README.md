@@ -35,7 +35,7 @@ Then execute the following command to install Dartchat as a docker container on 
 docker build -t dartchat github.com/nkratzke/dartchat
 ```
 
-Last run the container and bind it to a typical web port (e.g. 80 or 8080).
+Finally run the container and bind it to a typical web port (e.g. 80 or 8888).
 
 ```
 docker run -p 8080:3000 -d dartchat
