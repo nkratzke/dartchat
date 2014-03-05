@@ -10,7 +10,7 @@ Chart can be
 - started using [Dart Editor][dart] (or via Dart SDK)
 - or deployed using [Docker][docker]
 
-## How to use it using Dart Editor
+## How to start it using Dart Editor
 
 Clone it from github 
 
@@ -25,7 +25,7 @@ and open created directory in your Dart Editor. Then:
 3. Open as many webbrowser windows you like and open the url [http://localhost:3000][dart-url]
 4. Or run file <code>web\chartclient.dart</code> with Dartium within your Dart Editor.
 
-## How to use it using Docker
+## How to deploy it using Docker
 
 First install Docker for your system following the [install instructions][docker-install] provided by Docker.
 
