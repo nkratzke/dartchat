@@ -46,7 +46,7 @@ This will run the dartchat as a docker container. The chat is now accessible via
 
 ### Remarks regarding docker (on non linux systems)
 
-If docker is used on a non linux system like Mac OS X it is likely that docker uses [VirtualBox][virtualbox] under the hood (creating a virtual machine called _boot2docker-vm_). In theses cases you must configure port forwarding in virtual box. So if you are exposing port 3000 in your docker container mapping it to port 8080 for the outside world you must forward host port 8080 to boot2docker-vm port 8080 in virtualbox. How to do this is explained [here][virtualbox-portforward].
+If docker is used on a non linux system like Mac OS X it is likely that docker uses [VirtualBox][virtualbox] under the hood (creating a virtual machine called _boot2docker-vm_). In theses cases you must configure port forwarding in virtual box. So if you are exposing port 3000 in your docker container mapping it to port 8080 for the outside world you must forward host port 8080 to boot2docker-vm port 8080 in virtualbox. How to do this is explained [here][virtualbox-portforward]. Same should work on Windows system (but I do not have figured that out).
 
 ## Tour de Dart
 
