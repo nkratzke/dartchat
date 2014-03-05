@@ -8,7 +8,7 @@ to demonstrate how to dockerize a Dart server application.
 Chart can be
 
 - started using [Dart Editor][dart] (or via Dart SDK)
-- or deployed using [Docker] 
+- or deployed using [Docker][docker]
 
 ## How to use it using Dart Editor
 
