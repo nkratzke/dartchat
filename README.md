@@ -1,13 +1,13 @@
 # Dartchat
 
 Chart (aka dartchat) is a chat server and client (for demonstration purposes). 
-Chart is an example server and client for the Tour de Dart.
+Chart is an example server and client for the [Tour de Dart Part II][tour-de-dart-II].
 It is primarily used to demonstrate websockets in Dart but also
 to demonstrate how to dockerize a Dart server application.
 
 Chart can be
 
-- started using Dart Editor (or via Dart SDK)
+- started using [Dart Editor][dart] (or via Dart SDK)
 - or deployed using [Docker] 
 
 ## How to use it using Dart Editor
@@ -52,10 +52,12 @@ If docker is used on a non linux system like Mac OS X it is likely that docker u
 
 Tour de Dart is hosted on slideshare and can be accessed via the following links:
 
-- [Tour de Dart Part I](http://www.nkode.io/2014/02/13/dart-part-I.html)
-- [Tour de Dart Part II](http://www.nkode.io/2014/02/28/dart-part-II.html)
+- [Tour de Dart Part I][tour-de-dart-I]
+- [Tour de Dart Part II][tour-de-dart-II]
 
-
+[tour-de-dart-I]: http://www.nkode.io/2014/02/13/dart-part-I.html
+[tour-de-dart-II]: http://www.nkode.io/2014/02/28/dart-part-II.html
+[dart]: https://www.dartlang.org/
 [docker-install]: https://www.docker.io/gettingstarted/
 [dart-url]: http://localhost:3000
 [docker-url]: http://localhost:8080
