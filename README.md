@@ -23,7 +23,6 @@ and open created directory in your Dart Editor. Then:
 1. Run <code>pub build</code> in Dart Editor.
 2. Start the server by running <code>bin\chartserver.dart</code>.
 3. Open as many webbrowser windows you like and open the url [http://localhost:3000][dart-url]
-4. Or run file <code>web\chartclient.dart</code> with Dartium within your Dart Editor.
 
 ## How to deploy it using Docker
 
