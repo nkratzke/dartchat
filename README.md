@@ -61,6 +61,6 @@ Tour de Dart is hosted on slideshare and can be accessed via the following links
 [docker-install]: https://www.docker.io/gettingstarted/
 [dart-url]: http://localhost:3000
 [docker-url]: http://localhost:8080
-[docker]: https://docker.io
+[docker]: https://www.docker.io
 [virtualbox]: https://www.virtualbox.org/
 [virtualbox-portforward]: http://www.virtualbox.org/manual/ch06.html#natforward
