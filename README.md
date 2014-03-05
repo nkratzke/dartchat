@@ -5,10 +5,10 @@ Chart is an example server and client for the Tour de Dart.
 It is primarily used to demonstrate websockets in Dart but also
 to demonstrate how to dockerize a Dart server application.
 
-Chart can be started/deployed using
+Chart can be
 
-- Dart Editor (or via Dart SDK)
-- or [Docker] 
+- started using Dart Editor (or via Dart SDK)
+- or deployed using [Docker] 
 
 ## How to use it using Dart Editor
 
@@ -20,13 +20,14 @@ git clone https://github.com/nkratzke/dartchat.git
 
 and open created directory in your Dart Editor. Then:
 
-1. Start the server by running <code>bin\chartserver.dart</code>.
-2. Open as many webbrowser windows you like and open the url [http://localhost:3000][dart-url]
-3. Or run file <code>web\chartclient.dart</code> with Dartium within your Dart Editor.
+1. Run <code>pub build</code> in Dart Editor.
+2. Start the server by running <code>bin\chartserver.dart</code>.
+3. Open as many webbrowser windows you like and open the url [http://localhost:3000][dart-url]
+4. Or run file <code>web\chartclient.dart</code> with Dartium within your Dart Editor.
 
 ## How to use it using Docker
 
-First install Docker for your system following the [install instructions] provided by Docker.
+First install Docker for your system following the [install instructions][docker-install] provided by Docker.
 
 Then execute the following command to install Dartchat as a docker container on your system.
 
@@ -43,6 +44,10 @@ docker run -p 8080:3000 -d dartchat
 This will run the dartchat as a docker container. The chat is now accessible via
 [http://localhost:8080][docker-url];
 
+### Remarks regarding docker (on non linux systems)
+
+If docker is used on a non linux system like Mac OS X it is likely that docker uses [VirtualBox][virtualbox] under the hood. In theses cases you must configure port forwarding in virtual box. So if you are exposing port 3000 in your docker container mapping it to port 8080 for the outside world you must forward port 8080 to 8080 to the docker-vm in virtualbox. How to do this is explained [here][virtualbox-portforward].
+
 ## Tour de Dart
 
 Tour de Dart is hosted on slideshare and can be accessed via the following links:
@@ -55,3 +60,5 @@ Tour de Dart is hosted on slideshare and can be accessed via the following links
 [dart-url]: http://localhost:3000
 [docker-url]: http://localhost:8080
 [docker]: https://docker.io
+[virtualbox]: https://www.virtualbox.org/
+[virtualbox-portforward]: http://www.virtualbox.org/manual/ch06.html#natforward
