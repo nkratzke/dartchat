@@ -11,7 +11,7 @@ main() {
   final InputElement input    = querySelector("#message");
   final InputElement name     = querySelector("#name");
   final DivElement   chat     = querySelector("#chat");
-  final DivElement   notify  = querySelector("#notify");
+  final DivElement   notify   = querySelector("#notify");
 
   // Wir bauen uns einen Socket auf.
   final url = "ws://${window.location.host}/messages";
@@ -56,7 +56,9 @@ main() {
   // Wann immer auf unserem Socket eine Nachricht eingeht
   chatSocket.onMessage.listen((msg) {
     final message = new ChartMessage.fromJSON(msg.data);
-    chat.appendHtml("<p>${message.html}</p>");
-    chat.scrollByLines(1000);
+    final p = new Element.tag('p');
+    p.appendHtml(message.html);
+    chat.append(p);
+    p.scrollIntoView();
   });
 }
